@@ -17,4 +17,4 @@ int stack_push(stack *s, void *element);
 int stack_pop(stack *s, void *out);
 int stack_peek(stack *s, void *out);
 int stack_count(stack *s);
-int stack_free(stack *s);
+void stack_free(stack *s);
